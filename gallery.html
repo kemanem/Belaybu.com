@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Belayneh Bahiru</title>
+    <meta name="description" content="Photo and video gallery showcasing community events, campaigns, and public service activities.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <a href="index.html" class="brand-link">
+                    <img src="Image/1.jpg" alt="Logo" class="brand-logo" />
+                        <span class="brand-name">Belayneh Bahiru</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="news.html" class="nav-link">News</a>
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                    <a href="contact.html" class="btn btn-accent nav-btn">Contact</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="page-title">Photo & Video Gallery</h1>
+                    <p class="page-subtitle">Capturing moments of community engagement, public service, and progress.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Filter -->
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="Conference">Conference</button>
+                    <button class="filter-btn" data-filter="Plantation">Plantation</button>
+                    <button class="filter-btn" data-filter="Education">Education</button>
+                    <button class="filter-btn" data-filter="Book">Book</button>
+                    <button class="filter-btn" data-filter="meetings">Meeting</button>
+                </div>
+
+                <!-- Photo Gallery -->
+                <div class="gallery-grid" id="gallery">
+                    <div class="gallery-item" data-category="Conference">
+                        <img src="Image/G2.jpg" alt="Gofa cultural Dance" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Conference</h3>
+                                <p>የደቡብ ኢትዮጵያ ክልል ሕዝብ ምክር ቤት 5ኛ መደበኛ ጉባኤ</p>
+                                <span class="gallery-date">July 18, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Education">
+                        <img src="Image/G7.jpg" alt="Healthcare facility visit" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Education</h3>
+                                <p>አንድ መጽሐፍ ለአንድ ተማሪ</p>
+                                <span class="gallery-date">July 29, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Book">
+                        <img src="Image/G8.jpg" alt="Tesfaye Beljige" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Book Release</h3>
+                                <p>ኢትዮጵያዊ ዴሞክራሲ ፍለጋ</p>
+                                <span class="gallery-date">July 4, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Conference">
+                        <img src="Image/G4.jpg" alt="Business development center opening" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Conference</h3>
+                                <p>የደቡብ ኢትዮጵያ ክልል ሕዝብ ምክር ቤት 5ኛ መደበኛ ጉባኤ</p>
+                                <span class="gallery-date">July 18, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="Image/G9.jpg" alt="Infrastructure planning meeting" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Meeting</h3>
+                                <p>የግማሽ ዓመት ዕቅድ አፈፃፀም</p>
+                                <span class="gallery-date">February 5, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Plantation">
+                        <img src="Image/G5.jpg" alt="School technology launch" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Plantation</h3>
+                                <p>አረንጓዴ አሻራ</p>
+                                <span class="gallery-date">July 18, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Conference">
+                        <img src="Image/N7.jpg" alt="Women empowerment event" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Conference</h3>
+                                <p>የደቡብ ኢትዮጵያ ክልል ሕዝብ ምክር ቤት 5ኛ መደበኛ ጉባኤ</p>
+                                <span class="gallery-date">December 30, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Conference">
+                        <img src="Image/N5.jpg" alt="Community service day" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Conference</h3>
+                                <p>የደቡብ ኢትዮጵያ ክልል ሕዝብ ምክር ቤት 5ኛ መደበኛ ጉባኤ</p>
+                                <span class="gallery-date">July 18, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Plantation">
+                        <img src="Image/G6.jpg" alt="School visit" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Plantation</h3>
+                                <p>አረንጓዴ አሻራ</p>
+                                <span class="gallery-date">July 18, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Education">
+                        <img src="Image/N4.jpg" alt="Health clinic opening" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Education</h3>
+                                <p>አንድ መጽሐፍ ለአንድ ተማሪ</p>
+                                <span class="gallery-date">July 29, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="Book">
+                        <img src="Image/N3.jpg" alt="Youth sports event" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Book Sell</h3>
+                                <p>"ኢትዮጵያዊ ዴሞክራሲ ፍለጋ" መፅሐፍ በሽያጭ በቡልቂ ከተማ</p>
+                                <span class="gallery-date">July 29, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="Image/G10.jpg" alt="Policy discussion" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Meeting</h3>
+                                <p>የግማሽ ዓመት ዕቅድ አፈፃፀም</p>
+                                <span class="gallery-date">February 5, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="section video-section">
+            <div class="container">
+                <h2 class="section-title">Featured Videos</h2>
+                <p class="section-subtitle">Watch highlights from recent events and speeches</p>
+                
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <video class="video-player" poster="Image/FB.png">
+                                <source src="Video/V1.mp4" type="video/mp4">
+                            </video>                            
+                             <div class="play-button">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-content">
+                            <h3>ኢትዮጵያዊ ዴሞክራሲ ፍለጋ</h3>
+                            <p>ሙሉ ገቢው በጎፋ ዞን ገዜ ጎፋ ወረዳ ኬንቾ ሻቻ ጎዝዲ ቀበሌያት በመሬት ናዳ ለተጎዱ ወገኖች የሚውለው "ኢትዮጵያዊ ዴሞክራሲ ፍለጋ" የተሰኘው የኢፌዴሪ ህዝብ ተወካዮች ምክር ቤት የመንግስት ዋና ተጠሪ ሚንስቴር የዶክተር ተስፋዬ በልጅጌ መጽሐፍ አደጋው በደረሰበት ቦታ ላይ በይፋ ለሽያጭ ቀረበ።</p>
+                            <span class="video-duration">4:02</span>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <video class="video-player" poster="Image/FB2.png">
+                                <source src="Video/V2.mp4" type="video/mp4">
+                            </video>                               <div class="play-button">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-content">
+                            <h3>ለሀገር: በፋና ቲቪ</h3>
+                            <p>
+                                "…እኛ ስለ ዴሞክራሲ የምናስበው እና ህብረተሰቡ ዘንድ ያለው ለምን ተለያየ? …ኢትዮጵያ ውስጥ ንፁህ ሰው እና ንፁህ ኢትዮጵያዊ እንጂ ንፁህ ዘር የለም…. ኢትዮጵያ የብዝኀ ታሪክ፣ የብዝኀ ባህል እና የብዝኀ ወግ ባለቤት የሆኑ ማህበረሰቦች መኖሪያ ናት! " - በሕዝብ ተወካዮች ምክር ቤት የመንግሥት ዋና ተጠሪ ሚኒስትር ተስፋዬ በልጅጌ (ዶ/ር)                             
+                            </p>
+                            <span class="video-duration">0:49</span>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <video class="video-player" poster="Image/FB3.jpg">
+                                <source src="Video/V3.mp4" type="video/mp4">
+                            </video>                               <div class="play-button">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-content">
+                            <h3>ኢትየጰያዊ ዴሞክራሲ ፍለጋ</h3>
+                            <p>
+                                ለኢትዮጵያ .... ከኢትዮጵያዊ ዴሞክራሲ ሌላ መፈለግ “ፍዬልን ወርውሮ ቅምዝምዝ ለመምታት” እንደመሻት የተቃረነ እሳቤ ነው። “ወፍ እንደሀገሩ ይጮሃልና... ኢትዮጵያዊ ዴሞክራሲ አለ አብረን እንፈልግ።”
+                                በኢትዮጵያ የፖለቲካ ምህዳር ውስጥ የምዕራባዊያንን “ወፍ” እንደወረደ ይዘን ብናስጮኽ ከማደንቆር በቀር ትርጉም ሰጥቶ አያግባባንም።                            
+                            </p>
+                            <span class="video-duration">1:20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Call to Action -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Get in Touch</h2>
+                <p class="cta-subtitle">If you have any questions, comments, or would like to get in touch, feel free to reach out</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-accent">Contact Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Belayneh Bahiru</h3>
+                    <p class="footer-text">Unity. Justice. Progress.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Featured</h4>
+                    <ul class="footer-links">
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html#Experience">Experience</a></li>
+                        <li><a href="contact.html">Join Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact Info</h4>
+                    <p class="footer-text">Email: belaynehbahe2015@gmail.com</p>
+                    <p class="footer-text">Phone: +251-916-877-366</p>
+                    <p class="footer-text">Office: Jinka, Ethiopia</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Belayneh Bahiru. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>

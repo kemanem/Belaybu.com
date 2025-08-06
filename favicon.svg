@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Belayneh Bahiru</title>
+    <meta name="description" content="Photo and video gallery showcasing community events, campaigns, and public service activities.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <a href="index.html" class="brand-link">
+                        <span class="brand-name">Belayneh Bahiru</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="policies.html" class="nav-link">Policies</a>
+                    <a href="news.html" class="nav-link">News</a>
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="support.html" class="btn btn-accent nav-btn">Support</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="page-title">Photo & Video Gallery</h1>
+                    <p class="page-subtitle">Capturing moments of community engagement, public service, and progress.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Filter -->
+        <section class="section gallery-section">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="community">Community Events</button>
+                    <button class="filter-btn" data-filter="education">Education</button>
+                    <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                    <button class="filter-btn" data-filter="youth">Youth Programs</button>
+                    <button class="filter-btn" data-filter="meetings">Official Meetings</button>
+                </div>
+
+                <!-- Photo Gallery -->
+                <div class="gallery-grid" id="gallery">
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Community town hall meeting" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Community Town Hall</h3>
+                                <p>Education reform discussion with 500+ attendees</p>
+                                <span class="gallery-date">January 15, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="healthcare">
+                        <img src="https://images.pexels.com/photos/7723120/pexels-photo-7723120.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Healthcare facility visit" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Healthcare Facility Visit</h3>
+                                <p>Launching new healthcare initiatives</p>
+                                <span class="gallery-date">January 12, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="youth">
+                        <img src="https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Youth leadership program" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Youth Leadership Graduation</h3>
+                                <p>Celebrating 45 new community leaders</p>
+                                <span class="gallery-date">January 10, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Business development center opening" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Business Center Opening</h3>
+                                <p>Supporting local entrepreneurs</p>
+                                <span class="gallery-date">January 8, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Infrastructure planning meeting" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Infrastructure Planning</h3>
+                                <p>Rural road improvement project launch</p>
+                                <span class="gallery-date">January 5, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="education">
+                        <img src="https://images.pexels.com/photos/3184421/pexels-photo-3184421.jpeg?auto=compress&cs=tinysrgb&w=600" alt="School technology launch" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Digital Learning Launch</h3>
+                                <p>Technology integration in 20 pilot schools</p>
+                                <span class="gallery-date">January 3, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Women empowerment event" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Women's Empowerment</h3>
+                                <p>Program expansion celebration</p>
+                                <span class="gallery-date">December 30, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="community">
+                        <img src="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Community service day" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Community Service Day</h3>
+                                <p>Volunteering with local organizations</p>
+                                <span class="gallery-date">December 28, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="education">
+                        <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="School visit" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>School Visit</h3>
+                                <p>Meeting with students and teachers</p>
+                                <span class="gallery-date">December 25, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="healthcare">
+                        <img src="https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Health clinic opening" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Health Clinic Opening</h3>
+                                <p>New community health center</p>
+                                <span class="gallery-date">December 22, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="youth">
+                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Youth sports event" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Youth Sports Championship</h3>
+                                <p>Promoting healthy lifestyles</p>
+                                <span class="gallery-date">December 20, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="meetings">
+                        <img src="https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Policy discussion" />
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Policy Workshop</h3>
+                                <p>Stakeholder consultation session</p>
+                                <span class="gallery-date">December 18, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="section video-section">
+            <div class="container">
+                <h2 class="section-title">Featured Videos</h2>
+                <p class="section-subtitle">Watch highlights from recent events and speeches</p>
+                
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Town hall video" />
+                            <div class="play-button">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-content">
+                            <h3>Education Reform Town Hall</h3>
+                            <p>Complete coverage of the community town hall discussion on education reform initiatives and community feedback.</p>
+                            <span class="video-duration">45:30</span>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.pexels.com/photos/7723120/pexels-photo-7723120.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Healthcare speech video" />
+                            <div class="play-button">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-content">
+                            <h3>Healthcare Initiative Launch</h3>
+                            <p>Speech at the launch of the new community healthcare program and its impact on local communities.</p>
+                            <span class="video-duration">12:45</span>
+                        </div>
+                    </div>
+                    
+                    <div class="video-item">
+                        <div class="video-thumbnail">
+                            <img src="https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Youth program video" />
+                            <div class="play-button">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-content">
+                            <h3>Youth Leadership Celebration</h3>
+                            <p>Highlights from the youth leadership program graduation ceremony and inspiring speeches from graduates.</p>
+                            <span class="video-duration">18:20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Event Highlights -->
+        <section class="section highlights">
+            <div class="container">
+                <h2 class="section-title">Event Highlights</h2>
+                
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <div class="highlight-stats">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Community Members</span>
+                        </div>
+                        <h3>Town Hall Attendance</h3>
+                        <p>Record attendance at education reform discussion</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <div class="highlight-stats">
+                            <span class="stat-number">45</span>
+                            <span class="stat-label">Young Leaders</span>
+                        </div>
+                        <h3>Program Graduates</h3>
+                        <p>First class of youth leadership program</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <div class="highlight-stats">
+                            <span class="stat-number">20</span>
+                            <span class="stat-label">Schools</span>
+                        </div>
+                        <h3>Technology Integration</h3>
+                        <p>Digital learning platform pilot program</p>
+                    </div>
+                    
+                    <div class="highlight-card">
+                        <div class="highlight-stats">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Women</span>
+                        </div>
+                        <h3>Empowerment Program</h3>
+                        <p>Participants in expanded women's program</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Belayneh Bahiru</h3>
+                    <p class="footer-text">Unity. Justice. Progress.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="policies.html">Policies</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Get Involved</h4>
+                    <ul class="footer-links">
+                        <li><a href="support.html">Donate</a></li>
+                        <li><a href="support.html#volunteer">Volunteer</a></li>
+                        <li><a href="contact.html">Join Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact Info</h4>
+                    <p class="footer-text">Email: info@belaynehbahiru.com</p>
+                    <p class="footer-text">Phone: +251-911-123-456</p>
+                    <p class="footer-text">Office: Addis Ababa, Ethiopia</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Belayneh Bahiru. All rights reserved.</p>
+                <p>Authorized and paid for by Friends of Belayneh Bahiru</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gallery.js"></script>
+</body>
+</html>
